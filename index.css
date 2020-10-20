@@ -1,0 +1,71 @@
+html, body {
+    margin: 10px;
+    padding: 10px;
+}
+.grid {
+    height: 420px;
+    width: 420px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    
+    width: 15px;
+    height: 15px;
+}
+
+/* ELEMENT STYLES 
+// 0 - pac-dots
+// 1 - wall
+// 2 - ghost-lair
+// 3 - power-pellet
+// 4 - empty
+*/
+
+.pac-dot {
+    background: green;
+    border: 5px solid white;
+    box-sizing: border-box; /* border on the inside of the square */
+}
+
+.wall {
+    background: blue;
+}
+
+.power-pellet {
+    background: chartreuse;
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background: rgb(255, 123, 0);
+    border-radius: 7.5px;
+    border: none;
+}
+
+.blinky {
+    background: green;
+    border: none;
+}
+
+.pinky {
+    background: pink;
+    border: none;
+}
+
+.inky {
+    background: aqua;
+    border: none;
+}
+
+.clyde {
+    background: orange;
+    border: none;
+}
+
+.scared-ghost {
+    background: lightblue;
+    border: none;
+}
